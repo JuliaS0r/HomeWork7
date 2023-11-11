@@ -14,11 +14,11 @@ public class Main {
         //task2
         int a = 0;
         while (a < 10){
-            a = a + 1;
+            a = a + 1; //когда ставлю ++ выводит бесконечное количество нулей
             System.out.print(a + " ");
         }
         System.out.println();
-        for (i = 10; i >= 1; i = i - 1){
+        for (i = 10; i >= 1; i = i - 1){ //когда ставлю -- выводит бесконечное количество десяток
             System.out.print(i + " ");
         }
         System.out.println();
@@ -68,10 +68,8 @@ public class Main {
         }
 
         //task7
-       for (int dataOctober = 1; dataOctober <= 31; dataOctober = dataOctober + 1) {
-           if (dataOctober % 7 == 0) {
+       for (int dataOctober = 7; dataOctober <= 31; dataOctober = dataOctober + 7) {
                System.out.println("Сегодня пятница, " + dataOctober + "-е число. Необходимо подготовить отчет.");
-           }
        }
 
        //task8
